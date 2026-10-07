@@ -1,0 +1,5 @@
+ERROR:  new row for relation "participante" violates check constraint "ck_participante_cpf"
+Failing row contains (20001, Formato errado, outro@example.invalid, 123ABC). 
+
+SQL state: 23514
+Detail: Failing row contains (20001, Formato errado, outro@example.invalid, 123ABC).

@@ -1,0 +1,5 @@
+ERROR:  null value in column "id_participante" of relation "inscricao" violates not-null constraint
+Failing row contains (20001, null, 1, 1, 2022-01-05, PENDENTE, 120.00, null). 
+
+SQL state: 23502
+Detail: Failing row contains (20001, null, 1, 1, 2022-01-05, PENDENTE, 120.00, null).

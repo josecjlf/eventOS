@@ -1,0 +1,5 @@
+ERROR:  duplicate key value violates unique constraint "uq_participante_cpf"
+Key (cpf)=(90000000001) already exists. 
+
+SQL state: 23505
+Detail: Key (cpf)=(90000000001) already exists.

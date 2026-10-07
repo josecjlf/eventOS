@@ -1,0 +1,7 @@
+"id_inscricao","id_edicao","valor_contratado","preco_vigente","situacao"
+1,1,100.00,120.00,"PAGA"
+2501,1,100.00,120.00,"PENDENTE"
+5001,1,100.00,120.00,"CANCELADA"
+7501,1,100.00,120.00,"PAGA"
+10001,1,100.00,120.00,"PENDENTE"
+12000,1,120.00,120.00,"PAGA"

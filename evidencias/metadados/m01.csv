@@ -1,0 +1,6 @@
+"table_catalog","table_schema","table_name","table_type"
+"new_mer_02_10","public","categoria","BASE TABLE"
+"new_mer_02_10","public","edicao","BASE TABLE"
+"new_mer_02_10","public","evento","BASE TABLE"
+"new_mer_02_10","public","inscricao","BASE TABLE"
+"new_mer_02_10","public","participante","BASE TABLE"

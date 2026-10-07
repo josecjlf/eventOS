@@ -1,0 +1,5 @@
+ERROR:  duplicate key value violates unique constraint "pk_evento"
+Key (id_evento)=(1) already exists. 
+
+SQL state: 23505
+Detail: Key (id_evento)=(1) already exists.

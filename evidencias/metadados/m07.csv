@@ -1,0 +1,5 @@
+"tabela_origem","constraint_name","coluna_origem","ordem_origem","esquema_destino","tabela_destino","coluna_destino","ordem_destino","chave_destino","match_option","update_rule","delete_rule"
+"edicao","fk_edicao_evento","id_evento",1,"public","evento","id_evento",1,"pk_evento","NONE","NO ACTION","NO ACTION"
+"inscricao","fk_inscricao_categoria","id_categoria",1,"public","categoria","id_categoria",1,"pk_categoria","NONE","NO ACTION","NO ACTION"
+"inscricao","fk_inscricao_edicao","id_edicao",1,"public","edicao","id_edicao",1,"pk_edicao","NONE","NO ACTION","NO ACTION"
+"inscricao","fk_inscricao_participante","id_participante",1,"public","participante","id_participante",1,"pk_participante","NONE","NO ACTION","NO ACTION"

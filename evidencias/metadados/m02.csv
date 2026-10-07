@@ -1,0 +1,29 @@
+"table_name","ordinal_position","column_name","data_type","character_maximum_length","numeric_precision","numeric_precision_radix","numeric_scale","is_nullable","column_default","is_identity","identity_generation"
+"categoria",1,"id_categoria","bigint",NULL,64,2,0,"NO",NULL,"YES","BY DEFAULT"
+"categoria",2,"nome","character varying",80,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"categoria",3,"descricao","character varying",300,NULL,NULL,NULL,"YES",NULL,"NO",NULL
+"categoria",4,"preco_vigente","numeric",NULL,12,10,2,"NO",NULL,"NO",NULL
+"edicao",1,"id_edicao","bigint",NULL,64,2,0,"NO",NULL,"YES","BY DEFAULT"
+"edicao",2,"id_evento","bigint",NULL,64,2,0,"NO",NULL,"NO",NULL
+"edicao",3,"designacao","character varying",60,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"edicao",4,"data_inicio","date",NULL,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"edicao",5,"data_fim","date",NULL,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"edicao",6,"modalidade","character varying",10,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"edicao",7,"local_realizacao","character varying",200,NULL,NULL,NULL,"YES",NULL,"NO",NULL
+"edicao",8,"abertura_inscricoes","date",NULL,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"edicao",9,"fechamento_inscricoes","date",NULL,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"evento",1,"id_evento","bigint",NULL,64,2,0,"NO",NULL,"YES","BY DEFAULT"
+"evento",2,"nome","character varying",200,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"evento",3,"sigla","character varying",30,NULL,NULL,NULL,"YES",NULL,"NO",NULL
+"inscricao",1,"id_inscricao","bigint",NULL,64,2,0,"NO",NULL,"YES","BY DEFAULT"
+"inscricao",2,"id_participante","bigint",NULL,64,2,0,"NO",NULL,"NO",NULL
+"inscricao",3,"id_categoria","bigint",NULL,64,2,0,"NO",NULL,"NO",NULL
+"inscricao",4,"id_edicao","bigint",NULL,64,2,0,"NO",NULL,"NO",NULL
+"inscricao",5,"data_inscricao","date",NULL,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"inscricao",6,"situacao","character varying",9,NULL,NULL,NULL,"NO","'PENDENTE'::character varying","NO",NULL
+"inscricao",7,"valor_contratado","numeric",NULL,12,10,2,"NO",NULL,"NO",NULL
+"inscricao",8,"canal_divulgacao","character varying",11,NULL,NULL,NULL,"YES",NULL,"NO",NULL
+"participante",1,"id_participante","bigint",NULL,64,2,0,"NO",NULL,"YES","BY DEFAULT"
+"participante",2,"nome_completo","character varying",150,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"participante",3,"email","character varying",254,NULL,NULL,NULL,"NO",NULL,"NO",NULL
+"participante",4,"cpf","character varying",11,NULL,NULL,NULL,"YES",NULL,"NO",NULL

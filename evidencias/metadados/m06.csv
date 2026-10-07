@@ -1,0 +1,5 @@
+"table_name","constraint_name","column_name","ordinal_position"
+"categoria","uq_categoria_nome","nome",1
+"inscricao","uq_inscricao_participante_edicao","id_participante",1
+"inscricao","uq_inscricao_participante_edicao","id_edicao",2
+"participante","uq_participante_cpf","cpf",1

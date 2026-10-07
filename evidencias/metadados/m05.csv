@@ -1,0 +1,6 @@
+"table_name","constraint_name","column_name","ordinal_position"
+"categoria","pk_categoria","id_categoria",1
+"edicao","pk_edicao","id_edicao",1
+"evento","pk_evento","id_evento",1
+"inscricao","pk_inscricao","id_inscricao",1
+"participante","pk_participante","id_participante",1

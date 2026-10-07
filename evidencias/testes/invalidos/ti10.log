@@ -1,0 +1,5 @@
+ERROR:  new row for relation "edicao" violates check constraint "ck_edicao_modalidade"
+Failing row contains (20001, 1, Teste, 2026-10-20, 2026-10-22, OUTRA, null, 2026-09-01, 2026-10-19). 
+
+SQL state: 23514
+Detail: Failing row contains (20001, 1, Teste, 2026-10-20, 2026-10-22, OUTRA, null, 2026-09-01, 2026-10-19).

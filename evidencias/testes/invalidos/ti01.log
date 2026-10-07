@@ -1,0 +1,5 @@
+ERROR:  insert or update on table "edicao" violates foreign key constraint "fk_edicao_evento"
+Key (id_evento)=(99999) is not present in table "evento". 
+
+SQL state: 23503
+Detail: Key (id_evento)=(99999) is not present in table "evento".

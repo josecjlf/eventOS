@@ -1,0 +1,3 @@
+"table_name","column_name","numeric_precision","numeric_scale"
+"categoria","preco_vigente",12,2
+"inscricao","valor_contratado",12,2

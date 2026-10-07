@@ -1,0 +1,5 @@
+ERROR:  new row for relation "participante" violates check constraint "ck_participante_nome"
+Failing row contains (20001,    , outro@example.invalid, null). 
+
+SQL state: 23514
+Detail: Failing row contains (20001,    , outro@example.invalid, null).

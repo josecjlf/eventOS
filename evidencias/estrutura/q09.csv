@@ -1,0 +1,7 @@
+"table_name","column_name","is_identity","identity_generation","column_default"
+"categoria","id_categoria","YES","BY DEFAULT",NULL
+"edicao","id_edicao","YES","BY DEFAULT",NULL
+"evento","id_evento","YES","BY DEFAULT",NULL
+"inscricao","id_inscricao","YES","BY DEFAULT",NULL
+"inscricao","situacao","NO",NULL,"'PENDENTE'::character varying"
+"participante","id_participante","YES","BY DEFAULT",NULL

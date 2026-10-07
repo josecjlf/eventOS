@@ -1,0 +1,5 @@
+"table_catalog","table_schema","table_name","table_type"
+"new_mer_02_10","public","vw_inscricoes_diarias","VIEW"
+"new_mer_02_10","public","vw_resumo_canal","VIEW"
+"new_mer_02_10","public","vw_resumo_categoria","VIEW"
+"new_mer_02_10","public","vw_resumo_edicao","VIEW"
