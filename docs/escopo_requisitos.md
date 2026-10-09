@@ -71,10 +71,4 @@ Não administra lotes, documentos de comprovação, tentativas/forma/data de pag
 
 A nomenclatura física usa nomes em singular e snake_case, conforme a orientação MAD = DATA SUS comunicada ao grupo.
 
-## Fontes
 
-| ID | Referência | Uso |
-| --- | --- | --- |
-| E | MATA60 — Caso 1: EventOS, 28 páginas. | Requisitos pp. 5–9, refinamentos permitidos p. 9 e critérios da primeira entrega p. 25. |
-| P | Plano EventOS — Marco 1, Grupo 4, 9 páginas. | Planejamento do grupo. |
-| R | Recursos não permitidos SQL, 7 páginas. | Restrições de recursos e portabilidade dos scripts. |
