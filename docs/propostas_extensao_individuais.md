@@ -25,7 +25,7 @@ As três alternativas não criam RE2, RE3 ou RE4. A única extensão oficial per
 - **Representação conceitual adotada:** atributo opcional Canal de divulgação em Inscrição. Não cria entidade, relacionamento ou caminho adicional.
 - **Valores do recorte vigente:** SITE_EVENTO, REDE_SOCIAL, EMAIL, INDICACAO ou OUTRO. Ausência significa não informado.
 - **Limites:** um único canal informado na criação; sem campanhas, rastreamento de cliques, integração externa ou histórico de mudanças.
-- **Escolha:** é a extensão oficial porque entrega um indicador útil com um único atributo e uma consulta agregada. Foi sugerida por P1.
+- **Escolha:** é a extensão oficial porque entrega um indicador útil com um único atributo e uma consulta agregada. Foi sugerida por José.
 
 Esta seção descreve o comportamento já previsto em RE1; não o altera.
 

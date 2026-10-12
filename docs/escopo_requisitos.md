@@ -34,7 +34,7 @@ RF1/RF28 são mantidos; os outros oito são refinados. RF5 representa catálogo 
 
 ## RE1 — Canal de divulgação
 
-Extensão proposta por P1 e única implementada. As [propostas individuais](propostas_extensao_individuais.md) de P2/P3/P4 foram avaliadas e não integram RF/RN/modelo/SQL.
+Extensão proposta por José e única implementada. As [propostas individuais](propostas_extensao_individuais.md) de Shenio/Arthur/Natan foram avaliadas e não integram RF/RN/modelo/SQL.
 
 Registrar opcionalmente um único canal informado na criação: SITE_EVENTO, REDE_SOCIAL, EMAIL, INDICACAO ou OUTRO; NULL significa não informado. Justificativa: comparar divulgação por edição com uma coluna e consulta agregada, sem campanha, site ou integração. RE1 não integra a contagem dos dez RF.
 

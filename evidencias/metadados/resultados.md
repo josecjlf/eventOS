@@ -4,7 +4,7 @@ Resultados de [sql/05_metadados.sql](../../sql/05_metadados.sql), obtidos via IN
 
 | Bloco | Arquivo recebido | Linhas de dados | Resultado efetivamente encontrado | Conferência |
 | --- | --- | --- | --- | --- |
-| M00 | [m00.csv](m00.csv) | 1 | Base new_mer_02_10, esquema public, usuário postgres. | Conforme ao contexto informado por P1. |
+| M00 | [m00.csv](m00.csv) | 1 | Base new_mer_02_10, esquema public, usuário postgres. | Conforme ao contexto informado por José. |
 | M01 | [m01.csv](m01.csv) | 5 | categoria, edicao, evento, inscricao e participante; todas BASE TABLE, na base indicada. | Conforme ao modelo atual. |
 | M02 | [m02.csv](m02.csv) | 28 | Nomes, posições, tipos, tamanhos, precisão/escala, nulabilidade, cinco identidades BY DEFAULT e DEFAULT PENDENTE. | Conforme ao DDL, coluna por coluna. |
 | M03 | [m03.csv](m03.csv) | 5 | 28 colunas ao todo: 23 obrigatórias e cinco opcionais. Categoria tem quatro colunas, três obrigatórias. | Conforme a M02 e ao DDL. |
