@@ -1,6 +1,6 @@
 # Escopo e requisitos — núcleo gerencial EventOS
 
-O núcleo gerencial organiza **o cadastro e a administração da inscrição e sua quitação atual**, com cinco entidades: Evento, Edição, Participante, Categoria e Inscrição. O recorte seleciona dez requisitos funcionais do enunciado, com refinamentos e exclusões justificados, e uma extensão separada. As fontes E/P/R são identificadas ao final.
+O núcleo gerencial organiza **o cadastro e a administração da inscrição e sua quitação atual**, com cinco entidades: Evento, Edição, Participante, Categoria e Inscrição. O recorte seleciona dez requisitos funcionais do enunciado, com refinamentos e exclusões justificados, e uma extensão separada. 
 
 ## Objetivo geral
 

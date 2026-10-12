@@ -19,6 +19,6 @@ M00 identifica `new_mer_02_10/public/postgres`. M00–M09 confirmam cinco tabela
 
 [V05](../evidencias/verificacoes/v05.csv) contém inscrições 1/2501/5001/7501/10001/12000: cinco contratos de 100.00 e um de 120.00, com preço vigente 120.00. As quantidades da carga são expectativas descritas em [populacao.md](../docs/populacao.md), não valores de uma exportação de contagem disponível.
 
-Alguns registros foram produzidos anteriormente e correspondem a mecanismos e dados que permanecem inalterados. José confirmou a execução do roteiro; os anexos comprovam os resultados e contextos que registram. Ausência de exportação individual não foi preenchida com valores esperados. Contextos e horários não registrados permanecem ausentes.
+Alguns registros foram produzidos anteriormente e correspondem a mecanismos e dados que permanecem inalterados. José confirmou a execução do roteiro; os anexos comprovam os resultados e contextos que registram. 
 
 CHECKs impedem violações da própria linha. Regras de janela, cópia inicial do preço e transição de situação dependem do protocolo transacional; diagnósticos apenas detectam inconsistências. O proprietário pode contornar o protocolo. Os resultados dos metadados não comprovam, por si sós, a população, os privilégios ou o comportamento concorrente.
