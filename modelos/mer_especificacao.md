@@ -41,10 +41,4 @@ Não há N:N direto. Inscrição é um fato com identidade e atributos próprios
 
 O banco administra dados de contratação e a condição atual. Não processa dinheiro. Não reconstrói situação passada ou recebimento por data de pagamento. As regras e seus limites físicos estão em [regras_de_negocio.md](../docs/regras_de_negocio.md).
 
-## Verificação formal de ciclos
 
-Pares: Evento — Tem edição — Edição; Edição — Recebe inscrição — Inscrição; Participante — Realiza — Inscrição; Inscrição — Classifica-se em — Categoria.
-
-O grafo não dirigido é conectado, com 5 vértices e 4 arestas; 4−5+1 = 0 ciclos independentes. Incluindo os quatro losangos e 24 atributos, são 33 vértices e 32 ligações. Cada atributo é uma folha. **LOOPS CONCEITUAIS: 0.**
-
-Preço vigente fica em Categoria; Valor contratado e a única Situação ficam em Inscrição.

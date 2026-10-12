@@ -2,24 +2,21 @@
 
 As propostas individuais do grupo complementam a análise do [escopo](escopo_requisitos.md) e do [MER](../modelos/mer_especificacao.md). Somente RE1 — Canal de divulgação — integra a implementação.
 
-**RE1 — Canal de divulgação, proposta de P1, permanece a única extensão escolhida e implementada.** P2, P3 e P4 apresentaram avaliações individuais de outras alternativas, mantidas neste documento sem ampliar os RF/RE nem a implementação.
+**RE1 — Canal de divulgação, proposta de José, permanece a única extensão escolhida e implementada.** Shenio, Arthur e Natan apresentaram avaliações individuais de outras alternativas, mantidas neste documento sem ampliar os RF/RE nem a implementação.
 
-As respostas identificadas de P1/P2/P3/P4 foram encaminhadas por P1. A atribuição individual é: P1 — Canal de divulgação; P2 — Orientação de chegada; P3 — Tema principal do evento; P4 — Observação administrativa da inscrição.
 
 ## Visão geral
 
 | Integrante | Proposta | Representação proposta | Situação |
 | --- | --- | --- | --- |
-| P1 | Canal de divulgação | Atributo opcional de Inscrição | RE1 oficial implementada |
-| P2 | Orientação de chegada | Atributo opcional de Edição | Proposta individual avaliada; não incorporada |
-| P3 | Tema principal do evento | Atributo opcional de Evento | Proposta individual avaliada; não incorporada |
-| P4 | Observação administrativa da inscrição | Atributo opcional de Inscrição | Proposta individual avaliada; não incorporada |
+| José | Canal de divulgação | Atributo opcional de Inscrição | RE1 oficial implementada |
+| Shenio | Orientação de chegada | Atributo opcional de Edição | Proposta individual avaliada; não incorporada |
+| Arthur | Tema principal do evento | Atributo opcional de Evento | Proposta individual avaliada; não incorporada |
+| Natan | Observação administrativa da inscrição | Atributo opcional de Inscrição | Proposta individual avaliada; não incorporada |
 
 As três alternativas não criam RE2, RE3 ou RE4. A única extensão oficial permanece RE1.
 
-## P1 — RE1: Canal de divulgação
-
-**Resposta encaminhada por P1:**
+## José — RE1: Canal de divulgação
 
 > Minha proposta seria incluir na inscrição a informação de como o participante ficou sabendo do evento. Com esse dado, seria possível analisar quais meios de divulgação atraem mais inscrições. Como seria apenas um campo opcional, não seria necessário criar nenhuma entidade adicional.
 
@@ -32,9 +29,7 @@ As três alternativas não criam RE2, RE3 ou RE4. A única extensão oficial per
 
 Esta seção descreve o comportamento já previsto em RE1; não o altera.
 
-## P2 — Orientação de chegada
-
-**Resposta encaminhada por P1:**
+## Shenio
 
 > Eu sugeriria adicionar à edição uma informação breve sobre como chegar ao local, indicando, por exemplo, qual entrada deve ser utilizada. Esse dado complementaria as informações do local sem alterar a estrutura do modelo. Ainda assim, por ter pouca influência na gestão das inscrições, manteria apenas a extensão considerada prioritária.
 
@@ -48,9 +43,7 @@ Esta seção descreve o comportamento já previsto em RE1; não o altera.
 
 Não existe coluna, regra, teste ou relatório dessa alternativa na implementação atual.
 
-## P3 — Tema principal do evento
-
-**Resposta encaminhada por P1:**
+## Arthur
 
 > Minha sugestão seria incluir no evento um campo para indicar seu tema principal, como Tecnologia ou Educação. Isso facilitaria a classificação e a organização dos eventos sem exigir novas entidades. Como essa informação não é necessária para os relatórios definidos, considero mais adequado priorizar o canal de divulgação.
 
@@ -64,9 +57,7 @@ Não existe coluna, regra, teste ou relatório dessa alternativa na implementaç
 
 Não existe coluna, regra, teste ou relatório dessa alternativa na implementação atual.
 
-## P4 — Observação administrativa da inscrição
-
-**Resposta encaminhada por P1:**
+## Natan
 
 > Eu acrescentaria à inscrição um campo opcional destinado a pequenas observações administrativas. Ele poderia atender casos pontuais durante o gerenciamento das inscrições, embora exista o risco de registrar informações que já estejam presentes em outros campos. Por isso, considero o canal de divulgação uma extensão mais útil para o escopo atual.
 
@@ -79,7 +70,3 @@ Não existe coluna, regra, teste ou relatório dessa alternativa na implementaç
 - **Motivo de não inclusão:** a observação não é necessária às perguntas gerenciais atuais. Mantê-la como alternativa evita ampliar o escopo além da única extensão escolhida.
 
 Não existe coluna, regra, teste ou relatório dessa alternativa na implementação atual.
-
-## Extensão adotada
-
-As quatro propostas apresentam utilidade e representação conceitual simples. P2/P3/P4 também avaliam limites e justificam priorizar o canal de divulgação. Somente RE1 integra o banco; as outras três permanecem como análise individual documentada.
